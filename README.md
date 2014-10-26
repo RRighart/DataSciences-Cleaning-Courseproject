@@ -20,8 +20,7 @@ Similarly, corresponding datasets are merged for subject and
 activity_labels. Merging of these columns with the tset is done 
 at a later stage (see ## 4.)
 
-## 2. EXTRACT ONLY THE MEASURES ON THE MEAN AND SD FOR EACH 
-MEASUREMENT
+## 2. EXTRACT ONLY THE MEASURES ON THE MEAN AND SD FOR EACH MEASUREMENT
 The features.txt file provides the 561 names and are put 
 in the object FT. The requested features (mean and std 
 measures) are taken using grep and the appropriate elements
@@ -30,7 +29,7 @@ are put in a new object called nFT (for naming) and ntset
 
 ## 3. DESCRIPTIVE ACTIVITY NAMES
 Activity labels are attributed using a factor command that 
-replaces its the values by the six corresponding labels.
+replaces its values by the six corresponding labels.
 
 ## 4. DATASET LABELLED WITH DESCRIPTIVE VARIABLE NAMES
 The variables are renamed with descriptive variable names, 
